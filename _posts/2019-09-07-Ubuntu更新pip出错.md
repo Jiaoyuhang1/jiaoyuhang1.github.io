@@ -1,8 +1,8 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
 title:      Ubuntu更新pip出错               # 标题 
-subtitle:   ubuntu升级pip后， ImportError: cannot import name ‘main‘  #副标题
-date:       2019-09-07             # 时间
+subtitle:   ubuntu升级pip后，ImportError: cannot import name ‘main‘  #副标题
+date:       2019-09-07              # 时间
 author:     YH                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
@@ -10,6 +10,7 @@ tags:                               #标签
     - Ubuntu
     - pip
 ---
+
     ubuntu升级pip后， ImportError: cannot import name ‘main‘
 
 原因是升级以后，路径变了，导致出错。
