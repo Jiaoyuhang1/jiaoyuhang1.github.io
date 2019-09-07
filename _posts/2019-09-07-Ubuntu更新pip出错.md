@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Ubuntu更新pip出错               # 标题 
-subtitle:   ubuntu升级pip后，ImportError: cannot import name ‘main‘  #副标题
+title:      Ubuntu更新pip失败               # 标题 
+subtitle:    #副标题
 date:       2019-09-07              # 时间
 author:     YH                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
@@ -29,6 +29,3 @@ ImportError: cannot import name main
 sudo cp /usr/bin/pip /usr/bin/pip.bak && \
 sudo cp ~/.local/bin/pip /usr/bin/pip
 
-————————————————
-版权声明：本文为CSDN博主「zerfew」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/zerfew/article/details/82796730
